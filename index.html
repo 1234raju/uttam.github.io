@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Responsive Multipage Website Using HTML, CSS & Javascript</title>
+
+  <!--  ICONSCOUT CON  -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  
+
+  <!--  GOOGLE FONTS (MONTSERRAT)  -->    
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>                           
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!--  SWIPER JS  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+
+
+  <link rel="stylesheet" href="./css/style.css">
+
+ </head>
+ <body>
+    <nav>
+        <div class="container nav_container">
+            <a href="index.html">
+                <div class="logo_image"><img src="C:\Users\dell\Desktop\PROJECT\images\logo.jpg"></div></a>
+            <ul class="nav_menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    <!------------------------------- END OF NAVBAR -------------------------------->
+
+    <header>
+        <div class="container header_container">
+            <div class="header_left">
+                <h1> Grow your skills to advance your career path</h1>
+                <p>
+                    Uttam Institute of Technology and Management is a dynamic educational institution known for its commitment to academic excellence and practical learning. With a modern campus and experienced faculty, the institute offers a range of programs that blend theoretical knowledge with real-world application, preparing students for successful careers in various fields.
+                </p>
+                <a href="course.html" class="btn btn-primary">Login</a>
+            </div>
+            <div class="header_right">
+                <div class="header_right-image">
+                    <img src="C:\Users\dell\Desktop\PROJECT\images\college.jpg">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!----------------------------- END OF HEADER ---------------------------------->
+
+
+    <section class="categories">
+        <div class="container categories_container">
+            <div class="categories_left">
+                <h1>Categories</h1>
+                <p>
+                    These categories help streamline navigation and offer a comprehensive view of what the college offers.
+                </p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+
+            <div class="categories_right">
+                <article class="category">
+                    <span class="category_icon">
+                        <i class="uil uil-bitcoin-circle"></i>
+                    </span>
+                    <h5>Blockchain</h5>
+                    <p>Blockchain is a decentralized and secure digital ledger technology with applications across various industries.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category_icon">
+                        <i class="uil uil-palatte"></i>
+                    </span>
+                    <h5>Graphic Design</h5>
+                    <p>Graphic design is the art of visual communication that merges creativity with purposeful messaging.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category_icon">
+                        <i class="uil uil-usd-circle"></i>
+                    </span>
+                    <h5>Finance</h5>
+                    <p>Finance encompasses the management of monetary resources, investments, and financial activities within individuals, businesses, and institutions.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category_icon">
+                        <i class="uil uil-megaphone"></i>
+                    </span>
+                    <h5>Marketing</h5>
+                    <p>Marketing involves strategically connecting products or services with their target audience to fulfill needs and create value.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category_icon">
+                        <i class="uil uil-music"></i>
+                    </span>
+                    <h5>Music</h5>
+                    <p>Music is a universal language that evokes emotions and tells stories through harmonious arrangements of sound.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category_icon">
+                        <i class="uil uil-puzzle-piece"></i>
+                    </span>
+                    <h5>Bussiness</h5>
+                    <p>Business is the organized effort of individuals or entities to provide goods and services, aiming to create value and generate profit.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!----------------------- END OF CATEGORIES ----------------------->
+  
+
+    <section class="courses">
+        <h2>Our Popular Courses</h2>
+        <div class="container courses_container">
+            <article class="course">
+                <div class="course_image">
+                    <img src="C:\Users\dell\Desktop\PROJECT\images\bca.jpg">
+                </div>
+                <div class="course_info">
+                    <h4>BCA</h4>
+                    <p>
+                        BCA, or Bachelor of Computer Applications, is a three-year undergraduate program that equips students with technical skills in computer science and information technology.
+                    </p>
+                    <a href="course.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+            
+            <article class="course">
+                <div class="course_image">
+                    <img src="C:\Users\dell\Desktop\PROJECT\images\bba.jpg">
+                </div>
+                <div class="course_info">
+                    <h4>BBA</h4>
+                    <p>
+                        BBA, or Bachelor of Business Administration, is a three-year undergraduate program that provides students with a strong foundation in business and management principles.
+                    </p>
+                    <a href="course.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="C:\Users\dell\Desktop\PROJECT\images\mba.jpg">
+                </div>
+                <div class="course_info">
+                    <h4>MBA</h4>
+                    <p>
+                        An MBA, or Master of Business Administration, is a postgraduate degree that provides advanced knowledge and skills in various aspects of business management and leadership.
+                    </p>
+                    <a href="course.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!----------------------- END OF COURSES ----------------------->
+
+    <section class="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <div class="container faqs_container">
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>How do I know the right courses for me?</h4>
+                    <p>
+                        Choosing the right courses is a crucial step in your academic journey. At Uttam Group Of Institutions, we understand that each student's educational path is unique. So by contatcting us you can clear all your doubts and choose the right course for you.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4> How do I apply to the college?</h4>
+                    <p>
+                        You can apply to our college by visiting our online application portal and following the step-by-step instructions provided. Make sure to review the application deadlines and requirements specific to your desired program.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>What is the campus like?</h4>
+                    <p>
+                        Our campus offers a vibrant and diverse community with state-of-the-art facilities, recreational spaces, and cultural events. You can get a virtual tour of our campus on our website to get a feel for the environment.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>Does the college offer internship opportunities?</h4>
+                    <p>
+                        Yes, we have a robust career services department that assists students in finding internship opportunities relevant to their fields of study.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>How do I access campus Wi-Fi?</h4>
+                    <p>
+                        As a student, you can connect to our campus Wi-Fi by logging in with your student credentials. Instructions on connecting to Wi-Fi can be found on the IT Services page of our website
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>What are the payment options for tuition?</h4>
+                    <p>
+                        We offer various payment options for tuition, including online payment, payment plans, financial aid and you can pay your fees at our city office or in campus also. 
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>What security measures are in place on campus?</h4>
+                    <p>
+                        Our campus prioritizes safety and security. We have security personnel on-site, emergency protocols in place, and campus-wide alert systems.
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>What academic support services are available?</h4>
+                    <p>
+                        We offer a range of academic support services, including tutoring, study groups, and academic advising.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>How do I contact the admissions office?</h4>
+                    <p>You can reach the admissions office by 0562-4064500 , 91-9997434531 or info@uttaminstitute.ac.in. Alternatively, you can visit the "Contact Us" page for more contact options.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>What types of financial aid are available?</h4>
+                    <p>
+                        We offer scholarships, grants, work-study opportunities, and student loans. 
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+<!----------------------- END OF FAQs ----------------------->
+ 
+
+    <section class="container testinomial_container mySwiper">
+        <h2>Student's Testinomial</h2>
+        <div class="swiper-wrapper">
+            <article class="testinomial swiper-slide">
+                <div class="avatar">
+                    <img src="C:\Users\dell\Desktop\PROJECT\images\khushi.jpeg">
+                </div>
+                <div class="testinomial_info">
+                    <h5>Khushi Gupta</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testinomial_body">
+                    <p>
+                        "Studying at this institution has been an incredible journey of growth and learning. The dedicated faculty, innovative curriculum, and supportive environment have truly enriched my academic experience and prepared me for the challenges ahead."
+                    </p>
+                </div>
+            </article>
+
+            <article class="testinomial swiper-slide">
+                <div class="avatar">
+                    <img src="C:\Users\dell\Desktop\PROJECT\images\aditya.jpg">
+                </div>
+                <div class="testinomial_info">
+                    <h5>Aditya</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testinomial_body">
+                    <p>
+                        "The educational experience I gained from this institution has been transformative. The nurturing environment, knowledgeable professors, and practical approach to learning have not only broadened my horizons but also equipped me with the skills necessary to excel in my field."
+                    </p>
+                </div>
+            </article>
+
+            <article class="testinomial swiper-slide">
+                <div class="avatar">
+                    <img src="C:\Users\dell\Desktop\PROJECT\images\vartika.jpg">
+                </div>
+                <div class="testinomial_info">
+                    <h5>Vartika Varshney</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testinomial_body">
+                    <p>
+                        "Being a part of this college has been a remarkable chapter in my life. The engaging classes, collaborative projects, and inspiring mentors have shaped me into a confident and capable individual, ready to take on the professional world with enthusiasm."
+                    </p>
+                </div>
+            </article>
+
+            <article class="testinomial swiper-slide">
+                <div class="avatar">
+                    <img src="C:\Users\dell\Desktop\PROJECT\images\raju.jpg">
+                </div>
+                <div class="testinomial_info">
+                    <h5>Raju Lodhi</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testinomial_body">
+                    <p>
+                        "The supportive community and top-notch education I received here have been invaluable. The opportunities to explore my interests, the guidance from faculty, and the friendships I've made have all contributed to an unforgettable and enriching college experience."
+                    </p>
+                </div>
+            </article>
+
+            <article class="testinomial swiper-slide">
+                <div class="avatar">
+                    <img src="C:\Users\dell\Desktop\PROJECT\images\tanya.jpg">
+                </div>
+                <div class="testinomial_info">
+                    <h5>Tanya Saraswat</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testinomial_body">
+                    <p>
+                        "I'm incredibly grateful for my time at this university. The challenging yet rewarding academic environment, combined with the friendships I've built and the life lessons I've learned, have laid a strong foundation for my personal and professional development."
+                    </p>
+                </div>
+            </article>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+
+<!----------------------- END OF TESTINOMIALS ----------------------->
+
+
+    <footer class="footer">
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="index.html" class="footer_logo"><h4>UTTAM GROUP OF INSTITUTION</h4></a>
+                <p>
+                    Through its innovative approach to education, Uttam Institute strives to empower students with the skills and mindset needed to thrive in a rapidly evolving professional landscape.
+                </p>
+            </div>
+            <div class="footer_2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_3">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="a">Privacy Policy</a></li>
+                    <li><a href="a">Terms & conditions</a></li>
+                    <li><a href="a">Refund Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>+91-8171400500</p>
+                    <p>info@uttaminstitute.ac.in</p>
+                </div>
+
+                <ul class="footer_socials">
+                    <li>
+                        <a href="a"><i class="uil uil-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="a"><i class="uil uil-instagram-alt"></i></a>
+                    </li>
+                    <li>
+                        <a href="a"><i class="uil uil-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="a"><i class="uil uil-linkedin-alt"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+           
+        
+        </div>
+        <div class="footer_copyright">
+            <small>Uttam Group Of Instituions &copy;2023 All Rights Reserved</small>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      // when window width is >= 600px
+      breakpoints : {
+        600: {
+            slidesPerView: 2
+        }
+      }
+    });
+    </script>
+
+ </body>
+</html>
